@@ -285,13 +285,13 @@ ul a{
     color:rgb(2, 2, 94);
 }
 .menu-btn{
-    background-color:rgb(94, 146, 224);
+    background-color:rgb(149, 187, 243);
     color: black;
     border-radius:10px;
-    padding:12px 22px;
+    padding:7px 7px;
     margin:0px 70px;
-    margin-bottom:5px;
-    margin-top:0 ;
+    margin-bottom:none;
+    margin-top:10px ;
     font-size:15px;
     font-size: 15px;
 }
@@ -319,12 +319,49 @@ ul a{
     font-size: 20px;
 }
 
+.text-center1{
+    text-align: center;
+}
 
 
+/**heading scroll **/
 
+.heading1{
+    font-size: 30px;
+    color:#272343;
+    font-family: Copse;
+    font-size: 40px;
+}
 
+   /** box-4 **/
 
+   .img-tiger2{
+    height: 150px;
+    border-radius: 50%;
+    
+     }
+.img-tiger2:hover {
+    border-radius: 20px;
+    transition: 2s;
+    margin-left: 30px;
+     }
 
+    /** box-5 circle card**/
+    .img-tiger{
+        height: 200px;
+        border-radius: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color:white;
+         margin: 2pxpx;
+        padding: 0px;
+         }
+    .img-tiger:hover {
+        border-radius:100%;
+        transition: 2s;
+        margin-left:40px;
+        margin-bottom: 20px;
+         }
 
 
 
