@@ -106,3 +106,147 @@ font-size: 0.85rem;
 font-weight: 700;
 display: flex;
 }
+
+
+/** box 7 **/
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.panel-ops{
+    width:70%;
+    font-size: 0.85rem;
+    display: flex
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.img1{
+    background-image: url("front_image.jpg");
+    background-size: cover;
+    height: 750px;   
+}
+.scrolling-text marquee {
+    color: #000;
+    font-weight: bold;
+    background: rgb(158, 157, 157);
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-top: none;
+}
+.box
+{
+    border:2px solid black;
+   height:380px;
+  width:22%;   
+  background-color:white;
+  padding: 20px 0px 15px ;
+}
+
+.shpo-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(211, 207, 207)
+    
+
+}
+
+.img3{
+    height: 320px;
+    width: 250px;
+    padding-left: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.text{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="scrolling-text">
+        <marquee>Welcome to My Amazon!shop now freely it very nise to you !</marquee>
+    </div>
