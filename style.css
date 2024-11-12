@@ -16,7 +16,7 @@
     width:100px;
 }
 .logo{
-    background-image: url(Amazon_Logo1.png);
+    background-image: url(amazon12.jfif);
     background-size: cover;
     height:50px;
     width:100px;
@@ -130,9 +130,9 @@ display: flex;
     font-weight: 700;
 }
 .img1{
-    background-image: url("front_image.jpg");
+    background-image: url("front2.png");
     background-size: cover;
-    height: 750px;   
+    height: 350px;   
 }
 .scrolling-text marquee {
     color: #000;
@@ -145,14 +145,20 @@ display: flex;
 .box
 {
     border:2px solid black;
-   height:380px;
+   height:390px;
   width:22%;   
   background-color:rgb(217, 237, 248);
   padding: 20px 0px 15px ;
   box-shadow: -5px 4px 10px 2px #333333;
   border: 0.5px solid #737373;
+  border-radius: 5px;
 }
 
+
+.box:hover{
+    transition: 1.5s;
+    background-color:white;
+}
 .shpo-box{
     display: flex;
     justify-content: space-evenly;
@@ -177,10 +183,141 @@ display: flex;
     color: blue;
 }
 
+/** footer**/
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top:0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(amazon11.png);
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    text-align: center;
+}
 
 
+/** menu **/
 
+.menu-card{
+    background-color:white;
+    width:260px;
+    padding:20px;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px 2px #333333;
+    border: 0.5px solid #737373;
+    
+}
 
+.menu-icon{
+    height:210px;
+    width:200px;
+    display: block;
+    margin:10px auto;
+}
+.menu-title{
+    margin-bottom:10px;
+    padding:0;
+    font-size: 30px;
+    font-family: Copse;
+    color: #272343;
+}
+.menu-discription{
+    font-size:20px;
+    font-family: EB Garamond;
+    margin-top: 0px;
+    color:rgb(2, 2, 94);
+}
+.menu-btn{
+    background-color:rgb(94, 146, 224);
+    color: black;
+    border-radius:10px;
+    padding:12px 22px;
+    margin:0px 70px;
+    margin-bottom:5px;
+    margin-top:0 ;
+    font-size:15px;
+    font-size: 15px;
+}
+.menu-btn:hover{
+    border:1px solid black 5px;
+    background-color: whitesmoke;
+    border-radius:black solid 10px;
+ 
+    transition: 1.5s;
+}
+.menu-card:hover{
+    box-shadow: -4px 4px 10px 2px rgb(32, 32, 65);
+    transition: 1.5s;
+    background-color:#e3f6f5;
+}
+.card-container{
+    display:flex;
+    justify-content:space-evenly;
+}
+.text6{
+    font-family: dancing script;
+    color:#001858;
+}
+.text-3{
+    font-size: 20px;
+}
 
 
 
